@@ -4,10 +4,10 @@ export default function Home() {
   return(
     <div className="flex flex-col h-screen">
         <header>
-          <nav className="text-xl">
-            <a href="#" className="float-right mx-2 inline-block border">Profile</a>
-            <a href="#" className="float-right mx-2 inline-block border">Resume</a>
-            <a href="#" className="float-right mx-2 inline-block border">Projects</a>
+          <nav className="text-xl mt-2">
+            <a href="#" className="float-right mx-2 inline-block">Profile</a>
+            <a href="#" className="float-right mx-2 inline-block">Resume</a>
+            <a href="#" className="float-right mx-2 inline-block">Projects</a>
           </nav>
         </header>
         <main className="flex flex-col justify-center items-center h-screen">
