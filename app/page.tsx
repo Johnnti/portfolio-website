@@ -20,7 +20,7 @@ export default function Home() {
           John Nti Anokye
         </motion.h1>
         <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }} className="text-2xl mt-4 bg-orange-500 text-white px-4 py-2 rounded-lg">
-          Full Stack Web Developer
+          Computer Science Student
         </motion.h2>
 
         {/* Profile Image */}
