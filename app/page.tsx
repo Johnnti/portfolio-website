@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex flex-col justify-center items-center flex-grow text-center">
         <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-5xl font-bold">
-          John Nti Anokye
+          <Typewriter words={["John Nti Anokye"]} loop={0} cursor cursorColor="orange" typeSpeed={100} deleteSpeed={50} delaySpeed={1000} /> <br />
         </motion.h1>
         <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }} className="text-2xl mt-4 bg-orange-500 text-white px-4 py-2 rounded-lg">
           Computer Science Student
